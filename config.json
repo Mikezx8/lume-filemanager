@@ -1,0 +1,27 @@
+{
+    "bg":             "#0a0a0a",
+    "surface":        "#111111",
+    "surface2":       "#1a1a1a",
+    "accent":         "#F7736A",
+    "text":           "#f0f0f0",
+    "text_secondary": "#6a6a6a",
+    "border":         "#222222",
+    "font_family":    "Inter",
+    "radius":         10,
+    "hero_banner":    "/home/mik3/main.jpg",
+    "view_mode":      "grid",
+    "selection_color":"#1e1a3a",
+
+    "context_menu_file": [
+        { "name": "Open with Code",      "icon": "⌨", "command": "code {path}" },
+        { "name": "Open with VLC",       "icon": "▶", "command": "vlc {path}" },
+        { "name": "Copy Path",           "icon": "⎘", "command": "__copy_path__" },
+        { "name": "Open Terminal Here",  "icon": "⬡", "command": "x-terminal-emulator" }
+    ],
+
+    "context_menu_folder": [
+        { "name": "Open Terminal Here",  "icon": "⬡", "command": "x-terminal-emulator" },
+        { "name": "Copy Path",           "icon": "⎘", "command": "__copy_path__" },
+        { "name": "Open with Code",      "icon": "⌨", "command": "code {path}" }
+    ]
+}
